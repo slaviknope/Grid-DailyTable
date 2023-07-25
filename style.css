@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    box-sizing: border-box;
+    font-family: Noto Sans;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--gray-400, #DCDFE3);
+    padding: 12px 0;
+}
+
+header .logo {
+    background-image: url(./assets/Logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+
+header .searchform input {
+    width: 376px;
+    padding: 8px 12px;
+
+}
+
+header .navigation {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+
+}
+
+header .navigation .imgset {
+    background-image: url(./assets/settings.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+
+}
+
+header .navigation .imgnot {
+    background-image: url(./assets/bell.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+header .navigation p {
+    color: var(--gray-900, #3B3E45);
+
+    font: 400 14px Noto Sans;
+
+}
+
+.action .date-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action h1 {
+    color: var(--gray-900, #3B3E45);
+    font: 600 24px Noto Sans;
+}
+
+.action .date-form .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.action .date-form .btnleft {
+    background-image: url(./assets/Button.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 36px;
+
+}
+
+.action .date-form h3 {
+    color: var(--gray-900, #3B3E45);
+    font: 600 14px Noto Sans;
+}
+
+.action .date-form p {
+    color: var(--gray-700, #666E7D);
+    font: 400 14px Noto Sans;
+}
+
+.action .date-form .btnright {
+    background-image: url(./assets/Buttonright.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 36px;
+    width: 44px;
+
+}
+
+.action .date-form .right {
+    display: flex;
+    gap: 20px;
+}
+
+.action .date-form .right .btn1 {
+    border-radius: 4px;
+    border: 1px solid var(--gray-400, #DCDFE3);
+    color: var(--gray-900, #3B3E45);
+    font: 400 14px Noto Sans;
+    height: 36px;
+    width: 110px;
+    display: flex;
+    padding: 8px 12px;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.action .date-form .right .btn2 {
+    border-radius: 4px;
+    background: #1660D0;
+    color: var(--gray-100, #FFF);
+    font: 400 14px Noto Sans;
+    height: 36px;
+    width: 143px;
+    display: flex;
+    padding: 8px 12px;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 246px 246px 246px 246px 246px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.table div {
+    border-bottom: 1px solid var(--gray-400, #DCDFE3);
+    padding: 16px 0;
+}
+
+.table .status p {
+    border-radius: 4px;
+    background: linear-gradient(0deg, rgba(18, 189, 178, 0.11) 0%, rgba(18, 189, 178, 0.11) 100%), #FFF;
+    width: max-content;
+    padding: 0 2px;
+    color: var(--gray-900, #3B3E45);
+    font: 400 14px Noto Sans;
+    line-height: 20px;
+}
+
+.table div p {
+    line-height: 20px;
+}
