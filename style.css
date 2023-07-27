@@ -62,6 +62,7 @@ header .navigation p {
 .action .date-form {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .action h1 {
@@ -73,6 +74,7 @@ header .navigation p {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-top: 24px;
 }
 
 .action .date-form .btnleft {
@@ -106,6 +108,7 @@ header .navigation p {
 .action .date-form .right {
     display: flex;
     gap: 20px;
+    margin-top: 24px;
 }
 
 .action .date-form .right .btn1 {
@@ -133,10 +136,55 @@ header .navigation p {
     align-items: flex-start;
     gap: 4px;
 }
+ .filters{
+    padding-left: 24px;
+ }
+.Filtrs .panel {
+    border-radius: 4px;
+    border: 1px solid var(--gray-400, #DCDFE3);
+    background: var(--gray-200, #F8F9FA);
+    width: 1232px;
+    height: 52px;
+    margin-top: 24px;
+    display: flex;
+}
+
+.Filtrs .panel .names {
+    display: flex;
+    gap: 24px;
+}
+
+.Filtrs .panel .names p {
+    color: var(--gray-700, #666E7D);
+    font: 400 14px Noto Sans;
+    padding: 16px 0;
+    padding-left: 16px;
+}
+
+.Filtrs .panel .names h2 {
+    color: var(--gray-900, #3B3E45);
+    font: 600 14px Noto Sans;
+    padding: 16px 0;
+}
+
+.Filtrs .panel .Main_option {
+    display: flex;
+    align-items: center;
+    padding-left: 650px;
+
+}
+.Filtrs .panel .Main_option p{
+    color: var(--brand-secondary, #4155C8);
+font: 400 14px Noto Sans;
+
+}
+
+
+
 
 .table {
     display: grid;
-    grid-template-columns: 246px 246px 246px 246px 246px;
+    grid-template-columns: 246px 246px 246px 246px 246px ;
 
     justify-content: center;
     align-items: center;
@@ -157,6 +205,20 @@ header .navigation p {
     line-height: 20px;
 }
 
+.table .StatusV p{
+
+    border-radius: 4px;
+    background: linear-gradient(0deg, rgba(251, 181, 0, 0.13) 0%, rgba(251, 181, 0, 0.13) 100%), #FFF;
+    width: max-content;
+    padding: 0 2px;
+    color: var(--gray-900, #3c453b);
+    font: 400 14px Noto Sans;
+    line-height: 20px;
+}
 .table div p {
     line-height: 20px;
+}
+.table .Lasttable p{
+    color: var(--brand-secondary, #4155C8);
+font: 400 14px Noto Sans;
 }
